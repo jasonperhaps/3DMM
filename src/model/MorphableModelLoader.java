@@ -26,7 +26,7 @@ public class MorphableModelLoader {
 	 * - all the dimensions.
 	 */
 	public static MorphableModel loadMAT() throws IOException {
-		return loadMAT("data/01_MorphableModel.mat");
+		return loadMAT("/Users/jasonperhaps/Documents/GitHub/3DMM/data/01_MorphableModel.mat");
 	}
 
 	/** Load a morphable model:
@@ -34,7 +34,7 @@ public class MorphableModelLoader {
 	 * @param dimension number of dimension to load.
 	 */
 	public static MorphableModel loadMAT(int dimension) throws IOException {
-		return loadMAT("data/01_MorphableModel.mat", dimension);
+		return loadMAT("/Users/jasonperhaps/Documents/GitHub/3DMM/data/01_MorphableModel.mat", dimension);
 	}
 
 	/** Load a morphable model:
